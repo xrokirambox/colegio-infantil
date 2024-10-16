@@ -1,0 +1,81 @@
+/* Estilos para la vista de ingreso */
+
+/* Estilos del fondo */
+body {
+    background-image: url(/JardinInfantil/img/bk.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*Estilo de la letra */
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* estilos del login */
+form {
+    width: 500px;
+    border: 2px solid #131313;
+    padding: 30px;
+    background: #131313;
+    border-radius: 15px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+label {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button {
+    
+    background: #F28773;
+    padding: 10px 15px;
+    color: #111;
+    border-radius: 5px;
+    margin-right: 4.5cm;
+    margin-left: 4.5cm;
+    border: none;
+   
+}
+
+button:hover {
+    opacity: .7;
+}
+
+/* Color para mostrar errores en el ingreso de datos */
+.error {
+    background: #F2DEDE;
+    color: #a94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+
+
+
